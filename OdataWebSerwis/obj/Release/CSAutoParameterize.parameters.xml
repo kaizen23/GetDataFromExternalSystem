@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OdataWebSerwisContext-Web.config Connection String" description="OdataWebSerwisContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=OdataWebSerwisContext-20161203191727; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|OdataWebSerwisContext-20161203191727.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\neura\\Documents\\Visual\ Studio\ 2015\\Projects\\Odata\\OdataWebSerwis\\OdataWebSerwis\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OdataWebSerwisContext']/@connectionString" />
+  </parameter>
+</parameters>

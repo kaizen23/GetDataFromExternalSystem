@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="OdataWebSerwis20161211071053" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\neura\\Documents\\Visual\ Studio\ 2015\\Projects\\Odata\\OdataWebSerwis\\OdataWebSerwis\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\neura\\Documents\\Visual\ Studio\ 2015\\Projects\\Odata\\OdataWebSerwis\\OdataWebSerwis\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="OdataWebSerwisContext-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=OdataWebSerwisContext-20161203191727; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|OdataWebSerwisContext-20161203191727.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\neura\\Documents\\Visual\ Studio\ 2015\\Projects\\Odata\\OdataWebSerwis\\OdataWebSerwis\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OdataWebSerwisContext']/@connectionString" />
+  </parameter>
+</parameters>
